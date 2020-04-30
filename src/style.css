@@ -95,9 +95,9 @@ p {
   display: none;
 }
 
-/* .hide2 {
-  display: none;
-} */
+.active {
+  background-color: #666363;
+}
 
 .d-block {
   display: block;

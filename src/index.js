@@ -11,12 +11,12 @@ const contact = new Contact();
 const menu = new Menu();
 const navigate = new Navigate();
 
+
+header.loadHeader();
+dashboard.loadDashboard();
 navigate.loadNavigate();
 contact.loadContact();
 menu.loadMenu();
-header.loadHeader();
-dashboard.loadDashboard();
-
 
 
 class Navigate {
@@ -59,12 +59,13 @@ const openContact = () => {
   const getContact = document.getElementById("tabcontent1");
   const getMenu= document.getElementById("tabcontent2");
   if (getMenu.classList.contains("d-block")) {
-    getMenu.classList.remove("d-block")
+    getMenu.classList.remove("d-block");
     getMenu.classList.add("hide")
   }
 
   getContact.classList.remove("hide");
   getContact.classList.add("d-block");
+  
   
   
 }
@@ -75,9 +76,12 @@ const openMenu = () => {
   if (getContact.classList.contains("d-block")) {
     getContact.classList.remove("d-block")
     getContact.classList.add("hide")
+    
   }
   
   getMenu.classList.remove("hide");
   getMenu.classList.add("d-block");
+  
+  
   
 }

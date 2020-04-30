@@ -15,7 +15,7 @@ class Contact {
     contentH3.textContent = "Contacts"
 
     let contentP = document.createElement("p");
-    contentP.textContent = "07828277363"
+    contentP.textContent = "Elit incididunt nisi cupidatat eu proident laboris esse et aliqua qui anim ullamco. Magna non aliquip ullamco pariatur incididunt aute sunt exercitation irure nulla consequat commodo nulla laboris. Aliqua eiusmod ullamco ipsum labore officia est. Lorem mollit do fugiat fugiat eu enim mollit qui adipisicing eu proident nulla irure. Ipsum Lorem consectetur occaecat eu elit occaecat pariatur. Deserunt adipisicing adipisicing consectetur Lorem mollit aliquip elit non tempor eiusmod deserunt. Magna qui nostrud laborum adipisicing irure officia."
 
     
     contentDiv.appendChild(contentH3);
