@@ -17,9 +17,8 @@ class Contact {
     contentP.textContent = 'Elit incididunt nisi cupidatat eu proident laboris esse et aliqua qui anim ullamco. Magna non aliquip ullamco pariatur incididunt aute sunt exercitation irure nulla consequat commodo nulla laboris. Aliqua eiusmod ullamco ipsum labore officia est. Lorem mollit do fugiat fugiat eu enim mollit qui adipisicing eu proident nulla irure. Ipsum Lorem consectetur occaecat eu elit occaecat pariatur. Deserunt adipisicing adipisicing consectetur Lorem mollit aliquip elit non tempor eiusmod deserunt. Magna qui nostrud laborum adipisicing irure officia.';
 
 
-    contentDiv.appendChild(contentH3);
-    contentDiv.appendChild(contentP);
-    getContent.appendChild(contentDiv);
+    contentDiv.append(contentH3, contentP)
+    getContent.append(contentDiv);
   }
 }
 
