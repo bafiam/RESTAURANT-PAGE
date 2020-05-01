@@ -1,4 +1,4 @@
-import { imageOne } from './imgs/backg.jpg';
+import { imageOne } from "../src/imgs/newback1.jpg";
 
 class Header {
   static loadHeader() {

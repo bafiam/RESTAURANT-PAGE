@@ -49,6 +49,31 @@ $ npm install
 $ use live server to render the index
 ```
 
+or to run webpack on development mode
+
+```
+npm run dev
+```
+
+or to run webpack in production mode
+
+```
+npm run build
+```
+
+or to watch in development mode
+
+```
+npm run watch
+```
+
+or to start a server
+
+```
+npm run start
+```
+
+
 ## Author
 
 👤 **Stephen Gumba**
