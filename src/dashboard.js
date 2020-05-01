@@ -14,7 +14,7 @@ class Dashboard {
 
     const parentDiv = document.createElement('div');
     parentDiv.setAttribute('class', 'hide');
-    parentDiv.setAttribute('id', 'tabcontent3')
+    parentDiv.setAttribute('id', 'tabcontent3');
     data.forEach(element => {
       const contentDiv = document.createElement('div');
       contentDiv.setAttribute('class', 'contentDiv');
