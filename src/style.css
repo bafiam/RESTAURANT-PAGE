@@ -57,6 +57,7 @@ p {
   box-shadow: 3px 3px 7px rgba(66, 65, 65, 0.4);
   width: 80%;
   margin-left: 45px;
+  margin-top: 10px;
 }
 
 .imgDiv img {
@@ -85,7 +86,8 @@ p {
   font-size: 17px;
 }
 
-#tabcontent {
+#tabcontent1,
+#tabcontent2 {
   padding: 100px 12px;
   border: 1px solid #ccc;
   border-top: none;
