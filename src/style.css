@@ -1,0 +1,106 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.headerDiv {
+  padding: 50px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+.history {
+  margin-right: 340px;
+  margin-left: 340px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family:
+    "Lucida Sans",
+    "Lucida Sans Regular",
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    Geneva,
+    Verdana,
+    sans-serif;
+  font-style: normal;
+  font-size: medium;
+  line-height: 40px;
+  background: url('../src/imgs/newback1.jpg');
+}
+
+.p-title {
+  text-align: center;
+}
+
+.contentDiv {
+  display: flex;
+  margin-bottom: 10px;
+  background: white;
+  box-shadow: 3px 3px 7px rgba(66, 65, 65, 0.4);
+  width: 80%;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+.imgDiv img {
+  width: 180px;
+  height: 120px;
+  padding: 10px;
+}
+
+.textDiv {
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+#tabcontent1,
+#tabcontent2 {
+  padding: 100px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.hide {
+  display: none;
+}
+
+.active {
+  background-color: #666363;
+}
+
+.d-block {
+  display: block;
+}
